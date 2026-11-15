@@ -1,0 +1,12 @@
+node_modules/
+playwright-report/
+test-results/
+results/
+.DS_Store
+
+# Presentation artifacts
+*.pptx
+*.html
+
+# Local convenience symlinks
+test-cases > *

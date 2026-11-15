@@ -1,0 +1,27 @@
+{
+  "name": "deepseek-v4.1-flash-high-automation",
+  "version": "1.0.0",
+  "description": "Playwright regression suite for the Sauce Demo storefront (DeepSeek V4.1 Flash High benchmark)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "shopify",
+    "benchmark"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
